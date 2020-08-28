@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,300;0,500;1,300;1,400;1,700&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+
+}
+#page-home{
+
+    width: 100%;
+    background-color: white;
+}
+#page-home .content{
+
+    display: flex;
+    justify-content: space-between;
+}
+.content .div-painel:first-child    {
+
+    width: 60%;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+.section-images{
+    position: relative;
+    height: 135px;
+}
+#page-home div header{
+
+    margin-top: 70px;
+    height: 250px;
+    text-align: center;
+   
+}
+header h1{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    font-size: 37px;
+    color: rgba(8, 50, 132, 1);
+    
+}
+
+section .cards-info{
+    display: flex;
+    justify-content: center;
+
+}
+section .cards-info .card{
+    font-family: 'Roboto Slab', serif;
+
+    box-shadow: 0 8px 8px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 300px;
+    width: 300px;
+    margin: 9px;
+}
+section .cards-info .card h3{
+
+    text-align: center;
+}
+/* section .cards-info .card:last-child{
+    font-family: 'Roboto Slab', serif;
+    box-shadow: 0 8px 8px 8px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 300px;
+    height: 300px;
+    padding:0 6px 0 0;
+} */
+section .cards-info .card:last-child h3{
+
+    color:rgba(8, 50, 132, 1);
+    margin-left: 15px;
+}
+section .cards-info .card:last-child ul li{
+    margin-left: 8px;
+    
+    font-family: 'Roboto Slab', serif;
+    color: rgba(8, 50, 132, 1);
+    font-weight: bold;
+    list-style: none;
+    font-size: 15px;
+    padding-top:10px;
+}
+aside{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.div-painel:last-child{
+  
+    width: 35%;
+    display: flex;
+    background-color: rgba(8, 50, 132, 1);
+}
+aside .div-panel{
+    margin-top: 14%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+aside .div-panel h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 23px;
+    color: white;
+
+}
+aside .div-panel form{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    background-color: white;
+  max-width: 340px;
+    height: 410px;
+    border-radius: 10px;
+}
+aside .div-panel .form-group{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.form-group .form-field{
+    padding:10px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+}
+.form-group .form-field input{
+    font-family: 'Roboto Slab', serif;
+    height: 34px;
+    font-size: 15px;
+    padding: 10px;
+    color:rgba(144, 144, 144, 1);
+    border-style: solid;
+    border-radius: 14px;
+    border-color: rgba(178, 178, 178, 1);
+}
+
+ input[type="submit"]{
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    height: 50px;
+    background-color: rgba(8, 50, 132, 1);
+    color: white;
+    border: none;
+    width: 300px;
+    align-self: center;
+}
+#javascript{
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+ border-style: solid 10px;
+ border-color: rgba(144, 144, 144, 1);
+  font-family: 'Open Sans', 'Helvetica Neue', 'Segoe UI', 'Calibri', 'Arial', sans-serif;
+  font-size: 18px;
+  color: #60666d;
+}
+.date-event{
+    border-left-style: solid;
+    border-width: 6px;
+    border-color: rgba(8, 50, 132, 1);
+    align-self: center;
+    width: 85%;
+}
+.date-event label{
+    font-family: 'Roboto Slab', serif;
+    color: rgba(144, 144, 144, 1);
+    margin-left: 10px;
+    text-underline-position: auto;
+}
+@media only screen and (max-width: 1033px) {
+
+#page-home .content{
+    display: flex;
+    flex-direction: column;
+}
+.content .div-painel:first-child  {
+    width: 100%;
+}
+.content .div-painel:last-child  {
+    margin-top:10px;
+    width: 100%;
+}
+section .cards-info{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+
+}
+aside .div-panel h1{
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    color: white;
+
+}
+ 
+}
