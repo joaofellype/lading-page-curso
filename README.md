@@ -7,4 +7,4 @@
 * HTML
 * CSS
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/images/at (2).png)
